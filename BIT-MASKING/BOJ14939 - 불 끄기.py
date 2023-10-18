@@ -1,5 +1,5 @@
 '''
-BOJ 14939 - Turn off the lights
+BOJ 14939 - Turn off the lights (https://www.acmicpc.net/problem/14939)
 
 There are 100 light bulbs in a 10 * 10 board, either turned on [O] or off [#].
 If you press the switch of a light bulb, the light bulb and the adjacent 4 light bulbs will change its status.
