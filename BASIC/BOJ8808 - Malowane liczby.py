@@ -1,5 +1,5 @@
 '''
-BOJ 8808 - Malowane liczby (https://www.acmicpc.net/problem/8808)
+BOJ 8808 - Color Painting (https://www.acmicpc.net/problem/8808)
 
 All positive rational numbers are colored either red or blue by the following conditions:
 (1) Numbers differing by 1 are painted with different colors.
