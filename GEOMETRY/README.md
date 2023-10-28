@@ -6,17 +6,13 @@ This repository contains algorithms related to geometry.
 
 CCW is the foundational algorithm to solve geometry problems. By vector product, the algorithm determines the location of a point in relation to a segment.
 
-<br/>
-
-<center>
+<p align="center">
     <img
         src = ".\img\CCW.png"
         width = "360"
         height = "190"
     />
-</center>
-
-<br/>
+</p>
 
 *Application*
 
