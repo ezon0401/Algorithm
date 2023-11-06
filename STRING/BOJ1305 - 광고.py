@@ -1,5 +1,5 @@
 '''
-BOJ 1305 - (https://www.acmicpc.net/problem/1305)
+BOJ 1305 - Advertisement (https://www.acmicpc.net/problem/1305)
 
 A digital signage of length L infinitely repeats an advertising slogan.
 A string that indicates the screen of the digital signage at a specific moment is given.

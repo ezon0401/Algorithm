@@ -1,5 +1,5 @@
 '''
-BOJ 15724 - (https://www.acmicpc.net/problem/15724)
+BOJ 15724 - Ju-ji-su (https://www.acmicpc.net/problem/15724)
 
 There is an N * M number grid and queries. 
 A query consists of 4 numbers: x1, y1, x2, y2. 

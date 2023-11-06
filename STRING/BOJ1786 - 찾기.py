@@ -1,5 +1,5 @@
 '''
-BOJ 1786 - (https://www.acmicpc.net/problem/1786)
+BOJ 1786 - Find (https://www.acmicpc.net/problem/1786)
 
 Two strings T, and P are given.
 How many times and where does P appear in T?
