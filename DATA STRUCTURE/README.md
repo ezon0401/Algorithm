@@ -57,7 +57,7 @@ A priority queue is a data structure that can access an element with the lowest 
 
 *Tip*
 
-* Unlike other programming languages, Python does not support customized priority queues. We can only access the minimum value (or maximum value if values are stored as negative numbers).
+1. Unlike other programming languages, Python does not support customized priority queues. We can only access the minimum value (or maximum value if values are stored as negative numbers).
 
 *Sample Code*
 

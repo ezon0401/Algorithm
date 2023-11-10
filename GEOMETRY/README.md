@@ -22,7 +22,7 @@ CCW is the foundational algorithm to solve geometry problems. By vector product,
 
 *Tip*
 
-* Be mindful of the order of points. 
+1. Be mindful of the order of points. 
 
 *Sample Code*
 
