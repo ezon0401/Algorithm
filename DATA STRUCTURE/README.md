@@ -1,4 +1,4 @@
-# Overview
+# Data Structure
 
 This repository aims to introduce basic data structures. 
 
@@ -55,10 +55,6 @@ deque_example.pop() # Remove Last Element
 
 A priority queue is a data structure that can access an element with the lowest (or highest) priority value in O(1) time complexity. We can push or pop an element with the lowest (or highest) priority value in O(log n) time.
 
-*Tip*
-
-1. Unlike other programming languages, Python does not support customized priority queues. We can only access the minimum value (or maximum value if values are stored as negative numbers).
-
 *Sample Code*
 
 ```python
@@ -71,3 +67,7 @@ one = heapq.heappop(priority_queue) # Remove Element
 
 two = heapq[0] # Access Element with the Minimum Value
 ```
+
+*Tip*
+
+Unlike other programming languages, Python does not support customized priority queues. We can only access the minimum value (or maximum value if values are stored as negative numbers).
