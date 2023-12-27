@@ -63,4 +63,17 @@ class Trie:
                 now.children[char] = Node(char)
             now = now.children[char]
         now.word = word
+
+    def search(self, word):
+
+        now = self.root
+        for char in word:
+            if char not in now.children:
+                return False
+            else:
+                now = now.children[char]
+        
+        if now.data == word:
+            return True
+
 ```
