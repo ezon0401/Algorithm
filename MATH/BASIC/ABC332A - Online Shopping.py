@@ -8,7 +8,13 @@ Calculate the amount he will pay.
 
 import sys
 
+
+# 1. TO GET THE INPUT
+
 product_count, min_for_free_shipping, shipping_fee = map(int, sys.stdin.readline().split())
+
+
+# 2. TO SOLVE THE PROBLEM
 
 total_price = 0
 for product in range(product_count):

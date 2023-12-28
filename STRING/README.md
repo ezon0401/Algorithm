@@ -75,5 +75,4 @@ class Trie:
         
         if now.data == word:
             return True
-
 ```

@@ -11,7 +11,13 @@ He will perform the following operation K times.
 
 import sys
 
+
+# 1. TO GET THE INPUT
+
 op_count, glass_max, mug_max = map(int, sys.stdin.readline().split())
+
+
+# 2. TO SOLVE THE PROBLEM 
 
 mug_water = 0
 glass_water = 0

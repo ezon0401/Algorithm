@@ -11,8 +11,14 @@ What is the minimum number of T-shirts he needs to buy given the schedule?
 
 import sys
 
+
+# 1. TO GET THE INPUT
+
 day_count, plain_count = map(int, sys.stdin.readline().split())
 schedule = sys.stdin.readline().strip()
+
+
+# 2. TO SOLVE THE PROBLEM
 
 plain_available = plain_count
 logo_available = 0
