@@ -25,8 +25,7 @@ for num in range(1, num_count + 1):
 
 for exponent in range(1, key):
     for num in range(1, num_count + 1):
-        if sparse_table[num][exponent-1] != -1:
-            sparse_table[num][exponent] = sparse_table[sparse_table[num][exponent-1]][exponent-1]
+        sparse_table[num][exponent] = sparse_table[sparse_table[num][exponent-1]][exponent-1]
 
 
 # 3. TO SOLVE THE PROBLEM

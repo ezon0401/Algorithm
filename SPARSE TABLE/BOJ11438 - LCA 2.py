@@ -27,8 +27,7 @@ def set_parent():
     
     for exponent in range(1, key):
         for node in range(node_count):
-            if parent[node][exponent-1] != -1:
-                parent[node][exponent] = parent[parent[node][exponent-1]][exponent-1]
+            parent[node][exponent] = parent[parent[node][exponent-1]][exponent-1]
             
 
 # 4. LCA
