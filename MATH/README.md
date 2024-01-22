@@ -6,8 +6,8 @@ This repository is for mathematical problems or problems that do not require alg
 
 |Level|BOJ|CodeForces|AtCoder| 
 |:---:|:---:|:---:|:---:|
-|Basic|Bronze ~ Sliver|0 ~ 1500|Grey ~ Green|
-|Intermediate|Gold ~ Platinum|1600 ~ 2099|Cyan ~ Blue|
+|Basic|Bronze ~ Sliver|0 ~ 1500|Grey ~ Brown|
+|Intermediate|Gold ~ Platinum|1600 ~ 2099|Green ~ Blue|
 |Advanced|Diamond ~ Ruby|2100 ~ |Yellow ~|
 
 </center>
