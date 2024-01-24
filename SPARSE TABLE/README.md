@@ -30,7 +30,8 @@ def set_parent():
     # If vertex V is 2 ^ exp far from a node, it is 2 ^ (exp - 1) far from a node that is 2 ^ (exp - 1) far from V. 
     for exponent in range(1, key):
         for node in range(node_count):
-            parent[node][exponent] = parent[parent[node][exponent-1]][exponent-1]
+            if parent[node][exponent-1] != -1:
+                parent[node][exponent] = parent[parent[node][exponent-1]][exponent-1]
 
 def lca(nodeA, nodeB):
     
