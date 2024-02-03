@@ -7,3 +7,5 @@
 - Fermat's Little Theorem
     - If P is a prime number, pow(X, P) ≡ X (mod P).
     - Furthermore, if X is not a multiple of P, pow(X, P-1) ≡ 1 (mod P). In other words, pow(X, P-2) is a modular inverse of X. 
+
+- If an adjacency matrix represents a graph, its K-th power represents the number of paths with a distance of K.
