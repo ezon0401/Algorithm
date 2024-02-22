@@ -82,8 +82,9 @@ for index in range(1, divisor_count):
                     dp[finished_turn][index] = player
             
             for card in cards:
-                if dp[finished_turn+1][divisor_to_index[gcd(card, num_on_board)]] == player:
-                    dp[finished_turn][index] = player
+                if card % num_on_board != 0:
+                    if dp[finished_turn+1][divisor_to_index[gcd(card, num_on_board)]] == player:
+                        dp[finished_turn][index] = player
 
 
 if dp[0][-1] == 1:
