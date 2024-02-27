@@ -73,6 +73,6 @@ class Trie:
             else:
                 now = now.children[char]
         
-        if now.data == word:
+        if now.word == word:
             return True
 ```
